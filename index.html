@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en-ca'>
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+
+      <form action="https://formspree.io/zeyad.himmat@live.com" method="post">
+
+        <div>
+          <label for="name">Name</label>
+          <input id="name" required name="name">
+        </div>
+
+        </div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required placeholder="you@yours.com">
+      </div>
+
+      <div>
+        <label for="subject">Subject</label>
+        <select id="subject" name="_subject">
+          <option></option>
+          <option>Looking for a freelancer</option>
+          <option>Lets get coffee</option>
+          <option>Youre amazing!</option>
+        </select>
+      </div>
+
+      <fieldset>
+        <legend>How are you feeling today?</legend>
+
+        <input id="happy" type="radio" name="feels">
+        <label for="happy">Happy</label>
+
+        <input id="sad" type="radio" name="feels">
+        <label for="sad">Sad</label>
+
+        <input id="tired" type="radio" name="feels">
+        <label for="Tired">Tired</label>
+
+        <input id="like shit" type="radio" name="feels">
+        <label for="like shit">Like shit</label>
+      </fieldset>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Send!</button>
+      </div>
+      </form>
+
+    </body>
+    </html>
